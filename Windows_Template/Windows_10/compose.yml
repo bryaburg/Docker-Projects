@@ -1,7 +1,7 @@
 services:
   windows:
     image: dockurr/windows
-    container_name: windows
+    container_name: windows_10_temp
     environment:
       VERSION: "win10"
     devices:
@@ -13,5 +13,3 @@ services:
       - 3389:3389/tcp
       - 3389:3389/udp
     stop_grace_period: 2m
-    volumes:
-  - C:\Users\bburgess\:c:\shared
