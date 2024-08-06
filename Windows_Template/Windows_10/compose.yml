@@ -12,4 +12,6 @@ services:
       - 8006:8006
       - 3389:3389/tcp
       - 3389:3389/udp
+      - 22:22/SSH
     stop_grace_period: 2m
+
